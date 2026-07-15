@@ -5,7 +5,7 @@
 ### A luxury digital reception invitation crafted to welcome our family and friends to celebrate the beginning of our new journey together.
 
 <p align="center">
-  <a href="https://YOUR-VERCEL-LINK.vercel.app">
+  <a href="https://sajid-dilruba-reception.vercel.app/">
     <img src="https://img.shields.io/badge/🌐_Live_Reception_Website-Visit_Now-D4AF37?style=for-the-badge" />
   </a>
   <a href="https://github.com/Saji-d/sajid-dilruba-reception">
