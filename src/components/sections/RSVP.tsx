@@ -73,11 +73,11 @@ export default function RSVP() {
           className="mb-10 lg:mb-12"
         >
           <h2 className="text-4xl md:text-6xl font-great-vibes text-[var(--color-ivory)] drop-shadow-[0_2px_10px_rgba(255,255,240,0.3)] font-medium mb-4">
-            Will You Join Our Celebration?
+            Kindly confirm your presence at our reception.
           </h2>
           <div className="w-16 h-[1px] bg-[var(--color-gold-400)]/50 mx-auto mb-6"></div>
           <p className="font-cormorant text-xl text-gray-600 dark:text-gray-400">
-            We would be delighted to celebrate with you.
+            We would be delighted to celebrate this joyful occasion with you.
           </p>
         </motion.div>
 

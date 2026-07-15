@@ -8,19 +8,19 @@ export const weddingConfig = {
   },
   events: {
     wedding: {
-      name: "Wedding Ceremony",
-      date: "2026-07-17T14:00:00",
-      displayDate: "Friday, 17 July 2026",
+      name: "Wedding Reception",
+      date: "2026-07-18T13:30:00",
+      displayDate: "Saturday, 18 July 2026",
     },
   },
   venue: {
-    name: "Bilash Bhaban Community Center",
-    nameBn: "বিলাস ভবন কমিউনিটি সেন্টার",
-    address: "House 6, Road 5, Block A, Mirpur, Dhaka 1216",
-    googleMapsUrl: "https://maps.app.goo.gl/sR5XnHehZfHLMUv2A?g_st=iw",
+    name: "Twenty Twenty Restaurant & Party Center",
+    nameBn: "টুয়েন্টি টুয়েন্টি রেস্টুরেন্ট অ্যান্ড পার্টি সেন্টার",
+    address: "Twenty Twenty Restaurant & Party Center",
+    googleMapsUrl: "https://maps.app.goo.gl/DhJTPPDCLSrZddyn8",
     coordinates: {
-      lat: 23.8130301,
-      lng: 90.3750825,
+      lat: 23.80556,
+      lng: 90.36214,
     },
     mapZoom: 16,
   },

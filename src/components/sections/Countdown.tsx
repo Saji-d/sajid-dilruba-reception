@@ -5,9 +5,9 @@ import { motion } from "framer-motion";
 import { weddingConfig } from "@/config/wedding";
 import { differenceInDays, differenceInHours, differenceInMinutes, differenceInSeconds } from "date-fns";
 
+const targetDate = new Date(weddingConfig.events.wedding.date);
+
 export default function Countdown() {
-  const targetDate = new Date(weddingConfig.events.wedding.date);
-  
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
     hours: 0,
@@ -31,7 +31,7 @@ export default function Countdown() {
     calculateTimeLeft();
     const timer = setInterval(calculateTimeLeft, 1000);
     return () => clearInterval(timer);
-  }, [targetDate]);
+  }, []);
 
   const timeBlocks = [
     { label: "Days", value: timeLeft.days },

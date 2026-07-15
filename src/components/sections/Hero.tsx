@@ -12,19 +12,19 @@ export default function Hero() {
       <div className="absolute inset-0 z-0">
         {/* Main Hero Image - Using a formal luxury wedding background */}
         <Image
-          src="https://images.unsplash.com/photo-1523438885200-e635ba2c371e?q=80&w=2070&auto=format&fit=crop"
-          alt="Luxury Wedding Backdrop"
+          src="/images/twenty_enhanced.jpeg"
+          alt="Luxury Reception Backdrop"
           fill
-          className="object-cover brightness-[0.7] contrast-[1.1]"
+          className="object-cover brightness-[0.5] contrast-[1.05]"
           priority
-          quality={90}
+          quality={95}
           sizes="100vw"
         />
         {/* Elegant Dark Overlay for better text readability */}
         <div 
           className="absolute inset-0 z-10" 
           style={{ 
-            background: "linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.70))" 
+            background: "linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.65))" 
           }}
         ></div>
       </div>
@@ -39,7 +39,7 @@ export default function Hero() {
           className="text-xs md:text-sm font-cormorant tracking-[0.4em] uppercase text-[#ffdf8a] mb-12 md:mb-12 lg:mb-10 opacity-100 font-bold"
           style={{ textShadow: "0 2px 10px rgba(0,0,0,0.8)" }}
         >
-          You are invited
+          Reception Celebration
         </p>
 
         <h1 
@@ -67,7 +67,7 @@ export default function Hero() {
           className="text-xl md:text-3xl font-playfair italic text-[var(--color-champagne)] leading-relaxed px-2 drop-shadow-lg"
           style={{ textShadow: "0 4px 16px rgba(0,0,0,0.6)" }}
         >
-          Request the honor of your presence <br className="hidden md:block" /> at our wedding celebration.
+          Request the pleasure of your company <br className="hidden md:block" /> to celebrate our Wedding Reception.
         </p>
       </motion.div>
 

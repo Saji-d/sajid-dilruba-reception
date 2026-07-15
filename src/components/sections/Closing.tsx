@@ -30,9 +30,9 @@ export default function Closing() {
           transition={{ duration: 1, delay: 0.3 }}
           className="text-base md:text-2xl font-playfair text-[var(--color-burgundy-800)] dark:text-[var(--color-champagne)] leading-relaxed"
         >
-          Your presence is the greatest gift.
+          We look forward to celebrating this joyful occasion with you.
           <br />
-          We look forward to celebrating with you.
+          <span className="font-great-vibes text-3xl md:text-4xl text-[var(--color-gold-500)] mt-4 block">With love,</span>
         </motion.p>
 
         {/* Mobile Layout: Stacked Names */}
@@ -77,10 +77,10 @@ export default function Closing() {
             <div className="absolute inset-0 bg-[var(--color-gold-400)]/5 blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-1000"></div>
             
             <p className="font-playfair text-lg md:text-xl tracking-[0.4em] text-[var(--color-gold-500)] mb-2 md:mb-4 uppercase">
-                Friday
+                Saturday
             </p>
             <p className="font-playfair text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-[0.15em] text-[#D4AF37] drop-shadow-[0_2px_12px_rgba(212,175,55,0.3)] whitespace-nowrap">
-              17<sup className="text-[0.45em] font-bold lowercase">th</sup> JULY 2026
+              18<sup className="text-[0.45em] font-bold lowercase">th</sup> JULY 2026
             </p>
           </div>
         </motion.div>
