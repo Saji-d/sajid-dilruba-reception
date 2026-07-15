@@ -244,7 +244,7 @@ https://github.com/Saji-d/sajid-dilruba-reception
 
 Live Website
 
-https://YOUR-RECEPTION-VERCEL-LINK.vercel.app
+https://sajid-dilruba-reception.vercel.app/
 
 ---
 
