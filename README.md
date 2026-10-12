@@ -1,257 +1,77 @@
 <div align="center">
+  <img src="assets/banner.svg" alt="reception-invitation banner" width="100%">
 
-# 🎉 Sajid & Dilruba — Reception Celebration 🎉
+  <p><code>Reception edition of the digital wedding invitation, focused on a single event.</code></p>
 
-### A luxury digital reception invitation crafted to welcome our family and friends to celebrate the beginning of our new journey together.
-
-<p align="center">
-  <a href="https://sajid-dilruba-reception.vercel.app/">
-    <img src="https://img.shields.io/badge/🌐_Live_Reception_Website-Visit_Now-D4AF37?style=for-the-badge" />
-  </a>
-  <a href="https://github.com/Saji-d/sajid-dilruba-reception">
-    <img src="https://img.shields.io/badge/📦_Repository-GitHub-800020?style=for-the-badge" />
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=nextdotjs" />
-  <img src="https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react" />
-  <img src="https://img.shields.io/badge/TypeScript-Ready-3178C6?style=flat-square&logo=typescript" />
-  <img src="https://img.shields.io/badge/TailwindCSS-v4-38BDF8?style=flat-square&logo=tailwindcss" />
-  <img src="https://img.shields.io/badge/Framer_Motion-Animations-FF0055?style=flat-square" />
-  <img src="https://img.shields.io/badge/Deployed_on-Vercel-black?style=flat-square&logo=vercel" />
-</p>
-
----
-
-# 💍 Reception Celebration
-
-### 🗓 Date
-
-**18 July 2026**
-
-### 🕜 Time
-
-**1:30 PM onwards (After Zuhr Prayer)**
-
-### 📍 Venue
-
-**Twenty Twenty Restaurant & Party Center**
-
----
-
-*"We warmly invite you to join us as we celebrate our wedding reception and begin this beautiful new chapter together."*
-
+  <a href="https://sajid-dilruba-reception.vercel.app/"><img src="https://img.shields.io/badge/LIVE_SITE-open-6366f1?style=for-the-badge&labelColor=0B0E1A&logo=vercel&logoColor=8b7cf6" alt="Live site"></a>
+  <img src="https://img.shields.io/badge/REPO-private-8b7cf6?style=for-the-badge&labelColor=0B0E1A&logo=github&logoColor=8b7cf6" alt="Private repository">
+  <br>
+  <img src="https://img.shields.io/badge/Next.js-16-0B0E1A?style=flat-square&logo=nextdotjs&logoColor=8b7cf6" alt="Next.js">
+  <img src="https://img.shields.io/badge/React-19-0B0E1A?style=flat-square&logo=react&logoColor=8b7cf6" alt="React">
+  <img src="https://img.shields.io/badge/TypeScript-5-0B0E1A?style=flat-square&logo=typescript&logoColor=8b7cf6" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Tailwind_CSS-4-0B0E1A?style=flat-square&logo=tailwindcss&logoColor=8b7cf6" alt="Tailwind CSS">
+  <img src="https://img.shields.io/badge/Framer_Motion-12-0B0E1A?style=flat-square&logo=framer&logoColor=8b7cf6" alt="Framer Motion">
 </div>
 
----
+<img src="assets/divider.svg" alt="" width="100%">
 
-# 🌹 About The Project
+## ◈ Overview
 
-This website was designed as a dedicated digital reception invitation for **Sajid & Dilruba**.
+A trimmed variant of the main invitation built for the wedding reception. The page is short: hero, a written invitation, live countdown, reception details and a venue section with a maps link. The gallery, scratch card, love story, RSVP and guest wishes sections of the main version are not included.
 
-Unlike a traditional invitation card, this project offers guests an elegant online experience where they can quickly access reception details, venue directions, RSVP, and celebration information through a beautifully crafted interface.
+It is a sibling of [my-wedding-invitation](https://github.com/Saji-d/my-wedding-invitation) and shares its stack and design language (burgundy, gold and ivory with Great Vibes and Playfair Display). Content comes from a single typed config file, `src/config/wedding.ts`.
 
-The design focuses on simplicity, elegance, and accessibility—especially for guests of all ages.
+<div align="center">
+  <img src="docs/preview.webp" alt="Design preview from the main invitation" width="70%">
+  <br><sub>Preview of the shared visual style, taken from the main invitation.</sub>
+</div>
 
----
+<img src="assets/divider.svg" alt="" width="100%">
 
-# ✨ Features
+## ◈ Page Flow
 
-### 🎊 Elegant Reception Landing Page
-
-A premium welcome screen introducing guests to the celebration.
-
-### 🏛 Reception Details
-
-Clearly presented date, time, venue, and schedule.
-
-### 📍 Venue Directions
-
-Integrated Google Maps navigation to the reception venue.
-
-
-### 🖼 Restaurant Showcase
-
-Beautiful venue imagery helping guests recognize the location before arriving.
-
-### 🌸 Ambient Petal Animation
-
-Elegant floating petals throughout the experience.
-
-### 📱 Fully Responsive
-
-Optimized for desktop, tablet, and mobile devices.
-
-### ⚡ Smooth Animations
-
-Luxury transitions powered by modern web technologies.
-
----
-
-# 🎨 Design Philosophy
-
-The reception invitation follows a refined luxury aesthetic.
-
-### Color Palette
-
-| Color | Purpose |
-|--------|---------|
-| Burgundy | Luxury |
-| Gold | Celebration |
-| Champagne | Warmth |
-| Ivory | Elegance |
-
-### Typography
-
-- Great Vibes
-- Playfair Display
-- Cormorant Garamond
-
-Together they create a timeless wedding atmosphere.
-
----
-
-# 🛠 Tech Stack
-
-## Frontend
-
-- Next.js 16
-- React 19
-- TypeScript
-- Tailwind CSS v4
-
-## Animation
-
-- Framer Motion
-- GSAP
-
-## UI
-
-- React Icons
-
-## Deployment
-
-- Vercel
-
----
-
-# 🚀 Getting Started
-
-Clone the repository
-
-```bash
-git clone https://github.com/Saji-d/sajid-dilruba-reception.git
+```mermaid
+flowchart LR
+    OPEN[OpeningScreen] --> H[Hero]
+    H --> I[ReceptionInvitation]
+    I --> C[Countdown]
+    C --> D[ReceptionDetails]
+    D --> V[Venue]
+    V --> E[Closing]
+    CFG[config/wedding.ts] -.-> H
+    CFG -.-> C
+    CFG -.-> V
+    MUSIC[MusicPlayer] -.-> OPEN
 ```
 
-Move into the project
+<img src="assets/divider.svg" alt="" width="100%">
 
-```bash
-cd sajid-dilruba-reception
-```
+## ◈ Tech Stack
 
-Install dependencies
+| Layer | Technologies |
+|---|---|
+| Framework | Next.js 16 (App Router), React 19, TypeScript |
+| Styling and motion | Tailwind CSS 4, Framer Motion |
+| Utilities | date-fns, react-icons |
+| Hosting | Vercel |
+
+<img src="assets/divider.svg" alt="" width="100%">
+
+## ◈ Getting Started
 
 ```bash
 npm install
+npm run dev      # http://localhost:3000
+npm run build
+npm run lint
 ```
 
-Run locally
+No environment variables are required. Edit `src/config/wedding.ts` to change the content.
 
-```bash
-npm run dev
-```
+<img src="assets/divider.svg" alt="" width="100%">
 
-Visit
+## ◈ Author
 
-```
-http://localhost:3000
-```
+**Sajidur Rahman Sajid** - Full-Stack Developer and AI engineer, Dhaka.
 
----
-
-# 📂 Project Structure
-
-```text
-src/
-├── app/
-├── components/
-│   ├── layout/
-│   ├── sections/
-│   └── ui/
-├── config/
-└── public/
-```
-
----
-
-
-# 📱 Responsive Experience
-
-Designed with a mobile-first approach.
-
-- Mobile friendly
-- Tablet optimized
-- Desktop immersive
-- Fast loading
-- Accessible for guests of all ages
-
----
-
-# ❤️ A Note From Us
-
-Dear Family and Friends,
-
-Your love, prayers, and blessings have been an invaluable part of our journey.
-
-We would be honored by your presence as we celebrate our wedding reception together.
-
-We look forward to sharing this joyful occasion with you.
-
-**With Love**
-
-## Sajid & Dilruba
-
----
-
-# 🔗 Related Projects
-
-## 💖 Luxury Wedding Invitation
-
-https://github.com/Saji-d/my-wedding-invitation
-
-Live Website
-
-https://sajid-weds-dilruba.vercel.app/
-
----
-
-## 🤍 Formal Wedding Invitation
-
-https://github.com/Saji-d/formal-wedding-invitation
-
-Live Website
-
-https://sajid-dilruba-wedding-invitation.vercel.app/
-
----
-
-## 🎉 Reception Invitation
-
-Repository
-
-https://github.com/Saji-d/sajid-dilruba-reception
-
-Live Website
-
-https://sajid-dilruba-reception.vercel.app/
-
----
-
-<div align="center">
-
-## ✨ Crafted with Love, Code & Celebration 🎉
-
-**© 2026 Sajid & Dilruba Reception Invitation**
-
-</div>
+[Portfolio](https://www.sajidur.me) · [LinkedIn](https://www.linkedin.com/in/sajidur-rahman-sajid/) · [GitHub](https://github.com/Saji-d) · [Email](mailto:sajidsajidurrahman99@gmail.com)
